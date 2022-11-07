@@ -1,0 +1,217 @@
+/*HEADER*/
+/*body{background-size: cover;}*/
+header{color: #f2d9cc}
+			  .logo{
+    background-image: url(https://skylightanimation.github.io/kalimantan/assets/img/SkyLight_Animation.png);
+    width: 40px;
+    margin: 4px 14px;
+    height: 40px;
+    background-size: 40px 40px;
+    border: solid 2px #666;
+    border-radius: 50px;
+    background-color:  #95D677;
+}
+.navbar-left{
+    float:left;
+}
+.navbar-right{
+    float:right;
+    width:260px;
+    padding-right:10px;
+}
+.navbar{width:auto;
+    height:50px;
+    background:#95D677;
+    border-radius:2px;
+}
+ 
+.navbar ul{
+    float:left;
+    margin:0;
+    padding:0;
+}
+.navbar li{
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.navbar li a, .navbar li a:link {
+    float: left;
+    padding: 17px 12px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.navbar li a:hover{
+    background: #ddd;
+    color: #444;
+}
+.navbar li li a, .navbar li li a:link {
+    text-decoration: none;
+    font-size: 16px;
+    background: #444;
+    color: #fff;
+    width: 108px;
+    padding: 0px 0px 0 12px;
+    font-size: 12px;
+    line-height: 35px;
+}
+.navbar li li a:hover{
+    background: #ddd;
+    color: #444
+}
+.navbar li ul{
+    z-index:9999;
+    position:absolute;
+    left:-999em;
+    height:auto;
+    width:120px;
+    margin-top:50px;
+    border:1px solid #666;
+}
+.navbar li:hover ul,
+.navbar li li:hover ul,
+.navbar li li li:hover ul{left:auto;}
+.navbar li:hover{position:auto;}
+li a#dropdown{
+    width: 96%;
+    height: 50%;
+    background-color: #95D677
+    padding-left :5px;
+}
+
+/*AKHIR HEADER*/
+
+
+
+
+
+.LogIn{position: absolute;
+width: 341px;
+height: 437px;
+left: 550px;
+top: 214px;
+background: #CCE0B3;
+}
+
+.LogInAtas{position: absolute;
+width: 337px;
+height: 98px;
+left: 2px;
+top: 5px;
+
+background: #95D677;}
+
+.LOGIN{position: absolute;
+width: 138px;
+height: 44px;
+left: 100px;
+top: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 454;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+text-transform: uppercase;
+font-variation-settings: 'slnt' 0;}
+
+.Username2{position: absolute;
+width: 78px;
+height: 17px;
+left: 50px;
+top: 145px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 454;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+/*text-transform: uppercase;*/
+
+color: #000000;
+font-variation-settings: 'slnt' 0;
+}
+.input1{position: absolute;
+width: 278px;
+height: 47px;
+left: 35px;
+top: 160px;
+
+background: #95D677;
+border-radius: 50px;}
+
+
+.Password2{position: absolute;
+width: 213px;
+height: 19px;
+left: 49px;
+top: 235px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 454;
+font-size: 16px;
+line-height: 19px;
+/*text-transform: uppercase;*/
+
+color: #000000;
+font-variation-settings: 'slnt' 0;
+}
+
+.input2{position: absolute;
+width: 278px;
+height: 47px;
+left: 35px;
+top: 255px;
+
+background: #95D677;
+border-radius: 50px;}
+
+
+
+button{position: absolute;
+width: 105px;
+height: 33px;
+left: 140px;
+top: 350px;
+
+background: #95D677;
+border-radius: 50px;}
+
+button:hover{position: absolute;
+width: 110px;
+height: 35px;
+left: 145px;
+top: 350px;
+
+background: #95D677;
+border-radius: 60px;}
+/*.Submit2{position: absolute;
+width: 53px;
+height: 11px;
+left: 30px;
+top: 7px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 454;
+font-size: 16px;
+line-height: 19px;
+text-transform: uppercase;
+
+color: #000000;
+font-variation-settings: 'slnt' 0;}*/
+
+p{position: absolute;
+width: 110px;
+height: 35px;
+left: 145px;
+top: 350px;}
